@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>1001's</title>
+</head>
+<body>
+    <center>
+        <button class="Salir" onclick="Salir()">Salir</button>
+        <br>
+        <h1 class="Titulo"><span class="Amarillo">1</span><span class="Verde">0</span><span 
+            class="Azul">0</span><span class="Rosa">1</span><span class="Rojo">'</span><span class="Naranja">s</span></h1>
+        <img class="IMG" src="1001.png" alt="logo">
+        <br>
+        <div class="Borde">
+            <h2 id="NombreSalaEtiqueta" class="Letra">Nombre de la sala</h2>
+            <h3>Mensajes:</h3>
+            <h3 id="Mensajes"></h3>
+        </div>
+        <br>
+        <div>
+            <h2>Escriba un Mensaje:</h2>
+            <input type="text" placeholder="Mensajes" id="NuevoMensajeI" class="Input">
+            <br>
+            <br>
+            <button class="Boton" onclick="Enviar()">Enviar</button>
+        </div>
+    </center>
+    <script src="Chat.js"></script>
+</body>
+</html>

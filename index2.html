@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>1001's</title>
+</head>
+<body>
+    <center>
+        <button class="Salir" onclick="Salir()">Salir</button>
+        <br>
+        <h1 class="Titulo"><span class="Amarillo">1</span><span class="Verde">0</span><span 
+            class="Azul">0</span><span class="Rosa">1</span><span class="Rojo">'</span><span class="Naranja">s</span></h1>
+        <img class="IMG" src="1001.png" alt="logo">
+        <br>
+        <div class="Borde">
+            <br>
+            <h2>Bienvenido <span class="Letra" id="UsuarioEtiqueta">Usuario</span>!!</h2>
+            <h2>Para <span class="Letra">Chatear</span> puedes crear una <span class="Letra">nueva sala</span> o unirte a una que ya existe</h2>
+            <h2><span class="Letra">Crear</span> una nueva sala:</h2>
+            <br>
+            <input type="text" placeholder="Nueva sala" id="NuevaSalaInput" class="Input">
+            <br>
+            <br>
+            <br>
+            <button onclick="CrearSala()" class="Boton">Crear</button>
+            <br>
+            <br>
+        </div>
+        <br>
+        <h1 class="Letra">Salas Disponibles</h1>
+        <div class="Borde" id="Salas">
+            <h3>Salas:</h3>
+        </div>
+    </center>
+    <script src="main2.js"></script>
+</body>
+</html>

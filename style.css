@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(rgb(17, 17, 247), rgb(14, 235, 14), rgb(247, 243, 12));
+    background-repeat: no-repeat;
+    height: max-content;
+    background-size: cover;
+}
+.Titulo{
+    font-family: 'Courgette', cursive;
+    font-size: 100px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.IMG{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.Borde{
+    border-width: 5px;
+    border-color: rgb(255, 0, 85);
+    border-style: dotted;
+    width: 500px;
+}
+.Amarillo{
+    color: rgb(214, 214, 20);
+}
+.Verde{
+    color: rgb(4, 211, 32);
+}
+.Azul{
+    color: rgb(0, 225, 255);
+}
+.Rosa{
+    color: rgb(211, 40, 97);
+}
+.Rojo{
+    color: rgb(218, 34, 34);
+}
+.Naranja{
+    color: orange;
+}
+.Input{
+    border-radius: 20px;
+    border-width: 7px;
+    font-size: 20px;
+    width: 350px;
+    height: 35px;
+    border-color: rgb(212, 15, 15);
+    text-align: center;
+}
+.Boton{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 20px;
+    border-color: rgb(1, 247, 103);
+    background-color: rgb(255, 115, 0);
+    border-width: 5px;
+}
+.Letra{
+    font-family: 'Courgette', cursive;
+}
+.Salir{
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    color: red;
+    background-color: rgb(22, 212, 187);
+    font-weight: 900;
+}
+.Like{
+    width: 75px;
+    font-size: 15px;
+    border-radius: 20px;
+    border-color: rgb(1, 247, 103);
+    background-color: rgb(255, 115, 0);
+    border-width: 2px;
+}
